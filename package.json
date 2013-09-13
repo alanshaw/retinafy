@@ -1,6 +1,6 @@
 {
   "name": "retinafy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use JS to choose <img> src based on devicePixelRatio",
   "main": "retinafy.js",
   "scripts": {
