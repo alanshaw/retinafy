@@ -6,10 +6,3 @@ Use JS to choose &lt;img> src based on devicePixelRatio
 ```html
 <img data-src="" data-src-1_5x="" data-src-2x="" width="320" height="480" />
 ```
-
-TODO
----
-
-* Test with jQuery
-* Test in browsers
-* Test on phones
