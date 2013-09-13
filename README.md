@@ -1,4 +1,4 @@
-retinafy [![Build Status](https://travis-ci.org/alanshaw/retinafy.png?branch=master)](https://travis-ci.org/alanshaw/retinafy) [![Dependency Status](https://david-dm.org/alanshaw/retinafy.png)](https://david-dm.org/alanshaw/retinafy)
+retinafy [![Build Status](https://travis-ci.org/alanshaw/retinafy.png?branch=master)](https://travis-ci.org/alanshaw/retinafy) [![devDependency Status](https://david-dm.org/alanshaw/retinafy/dev-status.png)](https://david-dm.org/alanshaw/retinafy#info=devDependencies)
 ========
 
 Use JS to choose &lt;img> src based on devicePixelRatio
