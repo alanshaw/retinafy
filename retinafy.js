@@ -1,8 +1,16 @@
 (function () {
   var root = this
+  
+  function isArray (obj) {
+    return Object.prototype.toString.call(obj) == "[object Array]"
+  }
+  
+  function isNodeList (obj) {
+    return Object.prototype.toString.call(obj) == "[object NodeList]"
+  }
 
   function retinafy (img) {
-    var imgs = Object.prototype.toString.call(img) == "[object Array]" || img.jquery ? img : [img]
+    var imgs = img.jquery || isNodeList(img) || isArray(img) ? img : [img]
       , dpr = ((root.devicePixelRatio || 1) + "").replace(".", "_")
 
     for (var i = 0; i < imgs.length; ++i) {
