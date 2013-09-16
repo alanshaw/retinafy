@@ -1,14 +1,16 @@
 {
   "name": "retinafy",
   "version": "0.0.3",
+  "author": "Alan Shaw",
   "description": "Use JS to choose <img> src based on devicePixelRatio",
   "main": "retinafy.js",
-  "scripts": {
-    "test": "tap test"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/alanshaw/retinafy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/retinafy/issues"
   },
   "keywords": [
     "retina",
@@ -18,12 +20,10 @@
     "@2x",
     "image"
   ],
-  "author": "Alan Shaw",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alanshaw/retinafy/issues"
-  },
   "devDependencies": {
     "tap": "~0.4.4"
+  },
+  "scripts": {
+    "test": "tap test"
   }
 }
